@@ -1,6 +1,5 @@
 # created by virtualenv automatically
 __pycache__
-.env
 venv/
-
+.env
 
