@@ -6,8 +6,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from .routers import user, post, auth, vote    # we use one dot cuz they are in the same directory
 
-print(settings.database_username)
-# models.Base.metadata.create_all(bind=engine)
+#models.Base.metadata.create_all(bind=engine)
 """ after using alembic we actually don't need this command this is the command that tell sqlalchemy run the create statement to generate all of 
 the tables when it first started up but since we have alembic you no longer need this command .you can delete this.if it does create
 tables for you then your first alembic migration isn't gonna do anything cuz everything is already there"""
